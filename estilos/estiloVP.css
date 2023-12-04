@@ -17,19 +17,19 @@ body {
     color: #ffffff; 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
-    padding: 10px; /* Espaciado interno/relleno */
+    padding: 10px; 
 }
 
 #career, #university {
     font-size: 18px;
     color: #ffffff;
-    margin: 10px 0; /* Márgenes superior e inferior */
+    margin: 10px 0;
 }
 
 #basicSciences {
     font-style: italic;
     color: #ffffff; 
-    margin-top: 10px; /* Márgen superior */
+    margin-top: 10px;
 }
 
 .navigation {

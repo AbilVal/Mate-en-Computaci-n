@@ -68,5 +68,5 @@ p {
 
 .mission-section,
 .vision-section {
-    flex-basis: 48%; /* Ajuste el ancho según sus preferencias */
+    flex-basis: 48%; 
 }

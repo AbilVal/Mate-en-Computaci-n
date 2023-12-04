@@ -78,7 +78,7 @@ body {
 
 .materias-label {
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     margin-right: 10px;
 }
@@ -106,10 +106,6 @@ body {
     border-bottom: 1px solid #ddd;
     font-size: 14px;
     color: #008000;
-}
-
-.materias-dropdown ul li:last-child {
-    border-bottom: none;
 }
 
 .materias-dropdown a {
