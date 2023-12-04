@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.brand {
+    text-align: left;
+}
+
+.brand h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.brand p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0; /*superior e inferior, izuierdo y derecho*/
+}
+
+#basicSciences {
+    font-style: italic;
+}
+
+.navigation a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.content a {
+    color: #008000; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.content a:hover {
+    color: #006400; 
+}
+
+
+.materias-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.materias-label {
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.materias-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 150px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.materias-dropdown:hover ul {
+    display: block;
+}
+
+.materias-dropdown ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #008000;
+}
+
+.materias-dropdown ul li:last-child {
+    border-bottom: none;
+}
+
+.materias-dropdown a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.materias-dropdown a:hover {
+    color: #008000;
+}

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.brand {
+    text-align: left;
+}
+
+.brand h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.brand p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+#basicSciences {
+    font-style: italic;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.mission-vision-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission-section,
+.vision-section {
+    flex-basis: 48%; /* Ajuste el ancho según sus preferencias */
+}
